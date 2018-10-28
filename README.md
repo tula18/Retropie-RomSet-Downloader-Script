@@ -5,7 +5,7 @@ To get this script, open a Terminal and type:
 
 wget https://raw.githubusercontent.com/Julijan-Rosic/Retropie-RomSet-Downloader-Script/master/rom-loader.sh
 
-To download the wanted systems Change the "false" behind the corresponding variable to "true"
+To download the wanted systems just add  "true" behind the corresponding variable  
 
 To use the script, open a Terminal and type this comand:
 
