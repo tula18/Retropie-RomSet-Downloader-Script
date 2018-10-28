@@ -3,15 +3,15 @@
 echo "Making ROOT-Folder for roms"
 mkdir ~/ROMS
 
-nes=false
-snes=false
-gb=false
-gbc=false
-gba=false
-n64=false
-gg=false
-ms=false
-md=false
+nes=
+snes=
+gb=
+gbc=
+gba=
+n64=
+gg=
+ms=
+md=
 
 
 if [ "$nes" = true ] ; then
@@ -98,7 +98,7 @@ unzip -v "*.zip"
 rm "*.zip"
 fi
 
-if [ "$gg" 0 true ] ; then
+if [ "$gg" = true ] ; then
 echo "Making Gamegear Folder" 
 mkdir ~/ROMS/gamegear
 cd ~/ROMS/gamegear
